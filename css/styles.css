@@ -10,6 +10,15 @@ font-family: 'Ubuntu', sans-serif;
     height: 600px !important;
 }
 
+.coures-btn .see_btn {
+    display: inline-block;
+}
+
+.coures-btn .view_btn {
+    display: none;
+}
+
+
 .register-part {
     height: 300px;
     background: #1599e5;
@@ -35,3 +44,18 @@ font-family: 'Ubuntu', sans-serif;
     padding: 10px;
     color: rgb(231, 238, 235);
 }
+
+@media (max-width: 992px) {
+    .coures-btn .see_btn {
+        display: none;
+    }
+
+    .coures-btn .view_btn {
+        display: inline-block;
+    }
+
+    .register-title {
+        text-align: center;
+    }
+}
+
